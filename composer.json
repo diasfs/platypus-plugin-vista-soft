@@ -1,0 +1,30 @@
+{
+    "name": "diasfs/platypus-plugin-vista-soft",
+    "description": "Plugin to access the VistaSoft api",
+    "type": "library",
+    "keywords": [
+        "plugin",
+        "platypus",
+        "vista",
+        "vistasoft"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fábio Dias",
+            "email": "fabio@dias.poa.br",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/diasfs/platypus-plugin-vista-soft",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "diasfs/platypus": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Platypus\\Plugins\\": "src"
+        }
+    }
+}
